@@ -33,8 +33,35 @@ A classic Pong game implemented in **Python** (using **Pygame** or your framewor
 git clone https://github.com/MattCollingwood/Pong.git  
 cd Pong  
 python main.py
+```
 
-##Controls
-*Left Paddle*: W (up), S (down)
-Right Paddle: Up Arrow (up), Down Arrow (down)
-Quit / Restart: (describe how you implemented these, e.g., Esc to quit)
+## Controls
+**Left Paddle**: W (up), S (down)
+**Right Paddle**: Up Arrow (up), Down Arrow (down)
+**Quit / Restart**: (describe how you implemented these, e.g., Esc to quit)
+
+
+## Project Structure
+```
+Pong/
+│
+├── assets/                # (optional) images, sound files, etc.
+├── pong.py                # main game loop / logic
+├── paddle.py              # paddle class / logic
+├── ball.py                # ball class / movement and collision
+├── score.py               # (optional) scoring / scoreboard
+└── README.md              # this file
+```
+
+##Dependencies
+
+Python 3.x
+Pygame
+
+```
+pip install pygame
+```
+
+##License
+This project is licensed under the MIT License — see the LICENSE
+ file for details.
