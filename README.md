@@ -53,7 +53,7 @@ Pong/
 └── README.md              # this file
 ```
 
-##Dependencies
+##  Dependencies
 
 Python 3.x
 Pygame
